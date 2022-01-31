@@ -1,0 +1,119 @@
+.container-1 {
+  width: 100%;
+  height: 768px;
+  background-image: url(../../img/slider-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.carrusel {
+  display: flex;
+  width: 30%;
+  height: 30%;
+}
+
+.posicion {
+  bottom: 30%;
+  left: 10%;
+  width: 50rem;
+  height: 35rem;
+}
+
+.carrusel-texto {
+  margin-top: 254px;
+  margin-left: 101px;
+}
+
+.texto-primero {
+  width: 554px;
+  height: 115px;
+  color: #ffffff;
+  letter-spacing: 0.67px;
+  font-size: 46px;
+  text-align: left;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+.texto-segundo {
+  width: 343px;
+  height: 42px;
+  margin-top: 50px;
+  letter-spacing: 0.22px;
+  text-align: left;
+  color: #ffffff;
+  font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+  font-size: 16px;
+  opacity: 1;
+}
+
+.boton {
+  width: 144px;
+  height: 48px;
+  margin-top: 50px;
+  border-radius: 25px;
+  background: #E0752F;
+  color: #FFFFFF;
+  border-style: none;
+  margin-right: 1121px;
+  font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.22px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.redondo {
+  border-radius: 50%;
+  align-items: flex-start;
+}
+
+.principal {
+  display: flex;
+  width: 100%;
+  height: 96px;
+  justify-content: space-between;
+  border-bottom: 2px solid #E0752F;
+  align-items: center;
+}
+
+.logo {
+  width: 129px;
+  height: 30px;
+  margin-left: 100.33px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  right: 1137px;
+}
+
+.menu {
+  height: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  position: static;
+  width: auto;
+  transform: translateX(0%);
+  float: inherit;
+  background: transparent;
+  justify-content: flex-end;
+  align-content: space-around;
+  text-align: center;
+  left: 811px;
+  margin-right: 80px;
+}
+
+.menu a {
+  display: inline-block;
+  height: 21px;
+  width: 100px;
+  justify-content: right;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-size: 16px;
+  letter-spacing: 0px;
+  opacity: 1;
+}/*# sourceMappingURL=styles.css.map */
